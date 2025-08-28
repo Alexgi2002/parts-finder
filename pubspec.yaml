@@ -1,0 +1,50 @@
+name: parts_finder
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: ^3.8.1
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  #STATES MANAGEMENT
+  flutter_riverpod: ^2.3.6
+  hooks_riverpod: ^2.3.7
+  flutter_hooks: ^0.18.2
+
+  #ROUTER
+  go_router: ^15.0.0
+
+  #API
+  dio: ^5.8.0+1
+
+  #UTILS
+  url_launcher: ^6.3.1
+
+  #IMAGES
+  cached_network_image: ^3.4.1
+
+  # UI UTILITY
+  animate_do: ^4.2.0
+  linkify: ^5.0.0
+  shimmer: ^3.0.0
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+  flutter_launcher_icons: ^0.14.4
+
+flutter:
+  uses-material-design: true
+
+
+flutter_launcher_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/icon.png"
+  min_sdk_android: 21 # android min sdk min:16, default 21
