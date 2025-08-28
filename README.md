@@ -93,4 +93,4 @@ Si encuentras algún problema o tienes preguntas:
 
 ---
 
-**Nota**: Esta aplicación funciona junto con el [backend de scraping](https://github.com/AlexGI2002/parts-finder=backend) para proporcionar la funcionalidad completa de comparación de precios.
+**Nota**: Esta aplicación funciona junto con el [backend de scraping](https://github.com/AlexGI2002/parts-finder-backend) para proporcionar la funcionalidad completa de comparación de precios.
